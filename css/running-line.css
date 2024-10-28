@@ -1,0 +1,83 @@
+/* ### RUNNING LINES  ### */
+
+.running-line-wrapper {
+    margin: auto;
+    width: 110%;
+    height: 120px;
+    overflow: hidden;
+    background-color: #DA3369;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.running-line-wrapper__suscribiete {
+    position: relative;
+    top: -165px;
+    left: -10px;
+    right: -10px;
+    transform: rotate(4.5deg);
+    background-color: #FE6D44;
+}
+.running-line-wrapper__webinars {
+    position: relative;
+    top: 188px;
+    bottom: 0;
+    left: -10px;
+    right: -10px;
+    transform: rotate(-5.5deg);
+    background-color: #FFAD20;
+}
+.running-line-wrapper__gaming {
+    transform: rotate(-3.5deg);
+    position: relative;
+    bottom: 0;
+    left: -10px;
+    right: -10px;
+    background-color: #ACD6DE;
+    margin-bottom: 185px;
+}
+.running-line {
+    padding: 20px 0;
+    font-family: 'ArchivoBlack-Regular';
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 69.6px;
+    color: white;
+    white-space: nowrap;
+}
+
+.running-line__top {     
+    padding: 20px 0;
+    color: #1B1F21;
+    font-weight: 600;
+}
+
+.icon--star {
+    margin: 0 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.running-line__footer {
+    padding: 20px 0;
+    color: white;
+    font-weight: 600;
+}
+.icon--star {
+    margin: 0 20px;
+    width: 40px;
+    height: 40px;
+    fill: white;
+}
+.running-line {
+animation: run 12s linear infinite;
+}
+ @keyframes run {
+    from {
+       transform: translateX(0%);
+    }
+    to {
+       transform: translateX(-1683.35px);
+    }
+ }
