@@ -53,7 +53,7 @@
     font-weight: 600;
 }
 
-.icon--star {
+.icon-star {
     margin: 0 20px;
     width: 40px;
     height: 40px;
@@ -64,12 +64,7 @@
     color: white;
     font-weight: 600;
 }
-.icon--star {
-    margin: 0 20px;
-    width: 40px;
-    height: 40px;
-    fill: white;
-}
+
 .running-line {
 animation: run 12s linear infinite;
 }
