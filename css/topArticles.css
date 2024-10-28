@@ -1,4 +1,4 @@
-
+/* ### TOP-ARTICLE__FASHION ### */
 
 .top-articles__container {
     min-width: 320px;
@@ -6,7 +6,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 136px;
+    margin-bottom: 30px;
 }
 .top-articles__fashion {
     position: relative;
@@ -27,8 +27,8 @@
 }
 .fashion__fashion-sticker {
     position: absolute; 
-    top: 0; 
-    left: 0; 
+    top: -50px; 
+    left: -10px; 
     transition: transform 0.5s ease;
 }
 
@@ -158,8 +158,8 @@
 
 .diseno-sticker {
     position: absolute; 
-    top: 0; 
-    right: 0; 
+    top: -35px; 
+    right: -35px; 
     transition: transform 0.5s ease;
 }
 

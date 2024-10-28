@@ -1,12 +1,10 @@
-
-
 /* ### MIDDLE ARTICLE ### */
 
 .middle-article__container {
     min-width: 320px;
     max-width: 1208px;
     margin: 0 auto;
-    margin-bottom: 224px;
+    margin-bottom: 95px;
 }
 
 .middle{
@@ -20,7 +18,7 @@
 .middle__content{
     display: flex;
     justify-content: end;
-    
+    margin-bottom: 5px;
 }
 
 .middle__content-left{
@@ -29,6 +27,7 @@
    align-items: end;
    padding-top: 10px;
    margin-right: 40px;
+ 
 }
 
 .middle__content-right{
@@ -47,24 +46,25 @@
     mask-size: cover; 
     mask-repeat: no-repeat; 
     mask-position: center; 
+    margin-bottom: 88px;
 }
 
 .middle-sticker {
     position: absolute; 
-    top: 0; 
-    right: 0; 
+    top: -10px; 
+    right: -35px; 
     transition: transform 0.5s ease;
 }
 
 .middle-sticker:hover {
     transform: rotate(-180deg);
 }
+
 .middle__menu-list {
     display: flex;
     list-style: none;
     padding: 0;
     align-items: center;
-    margin-bottom: 24px;
 }
 .middle__menu-item {
     margin-right: 10px;
@@ -108,13 +108,12 @@
     color: #757778;
     font-size: 18px;
     line-height: 28.8px;
-    margin-bottom: 48px;
+ 
 }
 
 .middle__date {
     display: flex;
     align-items: center;
-    margin-bottom: 8px;
 }
 
 .middle__date-text {

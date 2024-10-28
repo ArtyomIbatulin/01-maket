@@ -4,7 +4,11 @@
     height: 72px;
     backdrop-filter: blur(4px);
     background: rgba(252, 250, 249, 0.9);
-    margin-bottom: 80px;
+    z-index: 1;
+    position: fixed;
+    width: 100vw;
+    transition: transform .2s linear;
+    overflow-x: hidden;
 }
 .header__container {
     min-width: 320px;
@@ -106,4 +110,8 @@
     line-height: 140%;
     color: #1b1f21;
     margin-right: 8px;
+}
+
+.hide {
+	transform: translateY(-139px);
 }

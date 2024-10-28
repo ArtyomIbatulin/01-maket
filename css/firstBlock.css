@@ -5,7 +5,8 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 425px;
+    padding-top: 150px;
+    margin-bottom: 136px;
 }
 
 .first-block__left-side {
