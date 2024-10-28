@@ -1,0 +1,235 @@
+/* ### BOTTOM__MARKETING ### */
+
+.bottom-articles__container {
+    min-width: 320px;
+    max-width: 1208px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-articles__marketing {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 50px;
+}
+.marketing__masked-image {
+    width: 584px; 
+    height: 328px; 
+    background-image: url('../assets/img/img-marketing.png'); 
+    background-size: cover; 
+    background-position: center;
+    mask-image: url('../assets/img/mask-marketing.png'); 
+    mask-size: cover; 
+    mask-repeat: no-repeat; 
+    mask-position: center; 
+}
+.marketing__marketing-sticker {
+    position: absolute; 
+    top: -70px; 
+    left: -55px; 
+    transition: transform 0.5s ease;
+}
+
+.marketing__marketing-sticker:hover {
+    transform: rotate(180deg);
+}
+.marketing__menu-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    padding-top: 30px;
+    align-items: center;
+}
+.marketing__menu-item {
+    margin-right: 10px;
+}
+.marketing__menu-item:last-child {
+    margin-right: 0px;
+}
+
+.marketing__menu-item a{
+    color: #EF9700;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.marketing__menu-item--active {
+    margin-right: 16px;
+    padding: 8px 18px;
+    border-radius: 20px;
+    background-color: #FFAD20;
+}
+
+.marketing__menu-item--active a{
+    color: #1b1f21;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.marketing__title { 
+    font-family: 'ArchivoBlack-Regular';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #1b1f21;
+    margin: 0;
+}
+.marketing__description {
+    color: #757778;
+    font-size: 18px;
+    line-height: 28.8px;
+}
+
+.marketing__date-time {
+    display: flex;
+    align-items: center;
+}
+.marketing__date {
+    display: flex;
+    align-items: center;
+    margin-right: 3px;
+}
+.marketing__date-img {
+    margin-right: 5px;
+}
+.marketing__date-text {
+    width: 127px;
+    color: #AEAEAE;
+    font-size: 15px;
+    line-height: 21px;
+    margin: 0;
+    margin-right: 24px;
+}
+.marketing__time {
+    display: flex;
+    align-items: center;
+}
+.marketing__time-img {
+    margin-right: 5px;
+}
+.marketing__time-text{
+    width: 47px;
+    color: #AEAEAE;
+    font-size: 15px;
+    line-height: 21px;
+    margin: 0;
+}
+
+/* ### BOTTOM__SOFTWARE ###  */
+
+.bottom-articles__software{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.software__masked-image {
+    width: 584px; 
+    height: 328px; 
+    background-image: url('../assets/img/img-software.png');
+    background-size: cover;
+    background-position: center;
+    mask-image: url('../assets/img/mask-software.png'); 
+    mask-size: cover; 
+    mask-repeat: no-repeat; 
+    mask-position: center; 
+}
+
+.software-sticker {
+    position: absolute; 
+    top: -40px; 
+    right: -35px; 
+    transition: transform 0.5s ease;
+}
+
+.software-sticker:hover {
+    transform: rotate(-180deg);
+}
+.software__menu-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    padding-top: 30px;
+    align-items: center;
+}
+.software__menu-item {
+    margin-right: 10px;
+}
+.software__menu-item:last-child {
+    margin-right: 0px;
+}
+
+.software__menu-item a{
+    color: #57ACBC;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.software__menu-item--active {
+    margin-right: 16px;
+    padding: 8px 18px;
+    border-radius: 20px;
+    background-color: #ACD6DE;
+}
+
+.software__menu-item--active a{
+    color: #1b1f21;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.software__title { 
+    font-family: 'ArchivoBlack-Regular';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #1b1f21;
+    margin: 0;
+}
+.software__description {
+    color: #757778;
+    font-size: 18px;
+    line-height: 28.8px;
+}
+
+.software__date-time {
+    display: flex;
+    align-items: center;
+}
+.software__date {
+    display: flex;
+    align-items: center;
+    margin-right: 3px;
+}
+.software__date-img {
+    margin-right: 5px;
+}
+.software__date-text {
+    width: 127px;
+    color: #AEAEAE;
+    font-size: 15px;
+    line-height: 21px;
+    margin: 0;
+    margin-right: 24px;
+}
+.software__time {
+    display: flex;
+    align-items: center;
+}
+.software__time-img {
+    margin-right: 5px;
+}
+.software__time-text{
+    width: 47px;
+    color: #AEAEAE;
+    font-size: 15px;
+    line-height: 21px;
+    margin: 0;
+}

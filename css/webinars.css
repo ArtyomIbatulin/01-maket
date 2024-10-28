@@ -1,0 +1,8 @@
+.webinars__container {
+    min-width: 320px;
+    max-width: 1208px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 1064px;
+}

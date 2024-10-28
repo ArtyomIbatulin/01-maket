@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Nunito-Regular'; 
+    src: url('../fonts/nunito/static/Nunito-Regular.ttf') format('truetype'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+@font-face {
+    font-family: 'ArchivoBlack-Regular'; 
+    src: url('../fonts/archivo_black/ArchivoBlack-Regular.ttf') format('truetype'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Nunito-Regular', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    background-color: #fcfaf9;
+    
+}
+
+
+/* .main::before {
+    content: url('../assets/img/line-bg.png');
+    overflow-x: hidden;
+    position: absolute;
+    z-index: -1;
+    top: 40px;
+    left: 9.6%;
+    no-repeat 
+} */
+  

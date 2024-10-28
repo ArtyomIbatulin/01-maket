@@ -1,0 +1,140 @@
+/* ### MIDDLE ARTICLE ### */
+
+.middle-article__container {
+    min-width: 320px;
+    max-width: 1208px;
+    margin: 0 auto;
+    margin-bottom: 95px;
+}
+
+.middle{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.middle__content{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 5px;
+}
+
+.middle__content-left{
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+   padding-top: 10px;
+   margin-right: 40px;
+ 
+}
+
+.middle__content-right{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.middle__masked-image {
+    width: 1208px;
+    height: 520px; 
+    background-image: url('../assets/img/img-middle.png');
+    background-size: cover;
+    background-position: center;
+    mask-image: url('../assets/img/mask-middle.png'); 
+    mask-size: cover; 
+    mask-repeat: no-repeat; 
+    mask-position: center; 
+    margin-bottom: 88px;
+}
+
+.middle-sticker {
+    position: absolute; 
+    top: -10px; 
+    right: -35px; 
+    transition: transform 0.5s ease;
+}
+
+.middle-sticker:hover {
+    transform: rotate(-180deg);
+}
+
+.middle__menu-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+}
+.middle__menu-item {
+    margin-right: 10px;
+}
+.middle__menu-item:last-child {
+    margin-right: 0px;
+}
+
+.middle__menu-item a{
+    color: #DA3369;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.middle__menu-item--active {
+    border-radius: 20px;
+    padding: 8px 18px;
+    width: 84px;
+    height: 37px;
+    background-color: #EC95B1;
+    color: #1b1f21;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    text-decoration: none;
+    margin: 0;
+}
+
+.middle__title { 
+    width: 792px;
+    font-family: 'ArchivoBlack-Regular';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.2px;
+    color: #1b1f21;
+    margin: 0;
+}
+.middle__description {
+    width: 688px;
+    color: #757778;
+    font-size: 18px;
+    line-height: 28.8px;
+ 
+}
+
+.middle__date {
+    display: flex;
+    align-items: center;
+}
+
+.middle__date-text {
+    width: 127px;
+    color: #AEAEAE;
+    font-size: 15px;
+    line-height: 21px;
+    margin: 0;
+    margin-right: 5px;
+   
+}
+.middle__time {
+    display: flex;
+    align-items: center;
+}
+
+.middle__time-text{
+    width: 47px;
+    color: #AEAEAE;
+    font-size: 15px;
+    line-height: 21px;
+    margin: 0;
+    margin-right: 5px;
+}

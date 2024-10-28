@@ -1,0 +1,117 @@
+
+.header {
+    padding: 16px 0px;
+    height: 72px;
+    backdrop-filter: blur(4px);
+    background: rgba(252, 250, 249, 0.9);
+    z-index: 1;
+    position: fixed;
+    width: 100vw;
+    transition: transform .2s linear;
+    overflow-x: hidden;
+}
+.header__container {
+    min-width: 320px;
+    max-width: 1208px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.header__logo:hover .logo-img,
+.header__logo:active .logo-img {
+    content: url(../assets/icons/logo-pink.svg);
+}
+
+.header__menu-list {
+    margin: 0;
+    padding: 0;
+    display: flex;    
+}
+.header__menu-item {
+    list-style-type: none;
+    border: 1.20px solid #e8e8e8;
+    border-radius: 20px;
+    padding: 8px 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.header__menu-item a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    color: #1b1f21;
+}
+
+.header__menu-item--diseno:hover,
+.header__menu-item--diseno:active {
+  background-color: #EC95B1; 
+}
+
+.header__menu-item--programming:hover,
+.header__menu-item--programming:active {
+  background-color: #A4CCFE; 
+}
+
+.header__menu-item--gaming:hover,
+.header__menu-item--gaming:active {
+  background-color: #BEDB39; 
+}
+
+.header__menu-item--marketing:hover,
+.header__menu-item--marketing:active {
+  background-color: #FFAD20; 
+}
+
+.header__menu-item--software:hover,
+.header__menu-item--software:active {
+  background-color: #ACD6DE; 
+}
+
+.header__menu-item--carrera:hover,
+.header__menu-item--carrera:active {
+  background-color: #AEDFD6; 
+}
+
+
+.header__right-menu {
+    display: flex;
+}
+.header__icon-search {
+    background: none;         
+    border: none;             
+    padding: 0;              
+    cursor: pointer;          
+    display: inline-flex;     
+    align-items: center;     
+    justify-content: center;
+    margin-right: 26px;
+}
+.header__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header__link:hover, 
+.header__link:active {
+    border-bottom: 1.5px solid #BEDB39; 
+  }
+
+.header__link-text {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 140%;
+    color: #1b1f21;
+    margin-right: 8px;
+}
+
+.hide {
+	transform: translateY(-139px);
+}
