@@ -1,6 +1,6 @@
 const scrollingHeader = () => {
   let lastScroll = 0;
-  const deafult = 200;
+  const step = 200;
   const header = document.querySelector(".header");
 
   const scrollPosition = () =>
@@ -11,7 +11,7 @@ const scrollingHeader = () => {
     if (
       scrollPosition() > lastScroll &&
       !containsHide() &&
-      scrollPosition() > deafult
+      scrollPosition() > step
     ) {
       header.classList.add("hide");
     } else if (scrollPosition() < lastScroll && containsHide()) {
