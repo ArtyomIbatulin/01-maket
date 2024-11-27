@@ -46,7 +46,6 @@ export default tseslint.config(
         { allowConstantExport: true },
       ],
       'prefer-const': 'error',
-      '@typescript-eslint/no-unused-expressions': 'off',
       'no-unused-expressions': [
         'error',
         { allowShortCircuit: true, allowTernary: true },
@@ -54,3 +53,5 @@ export default tseslint.config(
     },
   }
 );
+
+// чтобы установить airbnb приходится удалять eslint-plugin-react-hooks
